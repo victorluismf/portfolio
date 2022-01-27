@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+    --black: rgb(17, 17, 17);
+    --grey: rgb(22, 2, 36);
+    --white: rgb(252, 252, 252);
+    --bg: linear-gradient(
+      45deg,
+      #16021fd0,
+      #29053A
+    );
+  }
+  body {
+    background: var(--bg);
+    background-color: var(--grey);
+    color: var(--white);
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.6rem;
+  }
+  :root {
+    
+    --gradient: linear-gradient(
+        45deg,
+        #51e5ac,
+        #75eae4,
+        #ebfc8b,
+        #ea4798
+    );
+}
+
+/*--------------------------------------------------------------
+#                      Scroll To Top
+--------------------------------------------------------------*/
+
+
+.scroll-to-top img{
+  width: 3vmax;
+  height: auto;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 1vmax;
+  right: 3%;
+  z-index: 1;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: all ease 0.4s;
+}
+.scroll-to-top:hover {
+  transform: scale(1);
+}
+
+@media (max-width: 800px) {
+  .scroll-to-top img{
+    width: 4.5vmax;
+    height: auto;
+  }
+  .scroll-to-top {
+    bottom: 1vmax;
+    right: 3vmax;
+    transition: all ease 0.4s;
+  }
+}
+
+

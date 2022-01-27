@@ -1,0 +1,393 @@
+/*--------------------------------------------------------------
+#                    Contatos Geral
+--------------------------------------------------------------*/
+
+.contatos-section {
+    height: 140vh;
+    width: 100%;
+    padding-top: 5vmax;
+    box-shadow: inset 0 0 0 100vh rgba(0, 0, 0, 0.3);
+    padding-bottom: 12.5vmax;
+}
+
+/*--------------------------------------------------------------
+#                    Contatos Título
+--------------------------------------------------------------*/
+
+.contatos-title {
+    font-size: 4vmax;
+    margin-top: 3.5vmax;
+    text-align: center;
+    color: rgb(252, 206, 79);
+    user-select: none;
+}
+
+/*--------------------------------------------------------------
+#                    Contatos Container
+--------------------------------------------------------------*/
+
+.contatos1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos-card {
+    background-color: rgba(17, 17, 17, 0.274);
+    border-radius: 1.5vmax;
+    border-bottom: 0.3vmax solid rgb(252, 206, 79);
+    border-top: 0.3vmax solid rgb(252, 206, 79);
+    width: 22.5vmax;
+    height: 25vmax;
+    -webkit-animation: mover 4.5s infinite  alternate;
+    animation: mover 4.5s infinite  alternate;
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-1vmax); }
+}
+
+/*--------------------------------------------------------------
+#                Contatos Infos Card Geral
+--------------------------------------------------------------*/
+
+.local {
+    display: inline-flex;
+    margin-top: 1.5vmax;
+}
+.email {
+    display: inline-flex;
+}
+.telefone {
+    display: inline-flex;
+}
+
+/*--------------------------------------------------------------
+#                      Contatos Logos
+--------------------------------------------------------------*/
+
+.local-logo {
+    width: 4.5vmax;
+    height: auto;
+    margin-top: 1.5vmax;
+    margin-left: 2vmax;
+    user-select: none;
+}
+.email-logo {
+    width: 4.5vmax;
+    height: auto;
+    margin-top: 2.5vmax;
+    margin-left: 2vmax;
+    user-select: none;
+}
+.telefone-logo {
+    width: 4.5vmax;
+    height: auto;
+    margin-top: 2.5vmax;
+    margin-left: 2vmax;
+    user-select: none;
+}
+
+/*--------------------------------------------------------------
+#                   Contatos Infos Card
+--------------------------------------------------------------*/
+
+.local-info {
+    margin-left: 1.5vmax;
+}
+.email-info {
+    margin-left: 1.5vmax;
+}
+.telefone-info {
+    margin-left: 1.5vmax;
+}
+
+/*--------------------------------------------------------------
+#                       Local Infos
+--------------------------------------------------------------*/
+
+.local-title {
+    color: rgb(252, 206, 79);
+    font-size: 1.5vmax;
+    margin-top: 1.75vmax;
+}
+.local-subtitle {
+    font-size: 1vmax;
+    margin-top: -1.5vmax;
+}
+
+/*--------------------------------------------------------------
+#                        Email Infos
+--------------------------------------------------------------*/
+
+.email-title {
+    color: rgb(252, 206, 79);
+    font-size: 1.5vmax;
+    margin-top: 2.8vmax;
+}
+.email-subtitle {
+    font-size: 1vmax;
+    margin-top: -1.5vmax;
+}
+
+/*--------------------------------------------------------------
+#                       Telefone Infos
+--------------------------------------------------------------*/
+
+.telefone-title {
+    color: rgb(252, 206, 79);
+    font-size: 1.5vmax;
+    margin-top: 2.7vmax;
+}
+.telefone-subtitle {
+    font-size: 1vmax;
+    margin-top: -1.5vmax;
+}
+
+@media (max-width: 800px) {
+
+
+    .contatos-section {
+        height: 100vh;
+        padding-top: 20vmax;
+    }
+
+    /*--------------------------------------------------------------
+    #                    Contatos Título
+    --------------------------------------------------------------*/
+
+    .contatos-title {
+        font-size: 7vmax;
+        margin-top: 0vmax;
+    }
+
+    /*--------------------------------------------------------------
+    #                    Contatos Container
+    --------------------------------------------------------------*/
+
+
+    .contatos-card {
+        border-radius: 1.5vmax;
+        border-bottom: 0.7vmax solid rgb(252, 206, 79);
+        border-top: 0.7vmax solid rgb(252, 206, 79);
+        width: 35vmax;
+        height: 45vmax;
+    }
+
+    
+    /*--------------------------------------------------------------
+    #                Contatos Infos Card Geral
+    --------------------------------------------------------------*/
+
+    .local {
+        display: inline-flex;
+        margin-top: 1.5vmax;
+    }
+    .email {
+        display: inline-flex;
+    }
+    .telefone {
+        display: inline-flex;
+    }
+
+    /*--------------------------------------------------------------
+    #                      Contatos Logos
+    --------------------------------------------------------------*/
+
+    .local-logo {
+        width: 6vmax;
+        margin-top: 4.5vmax;
+        margin-left: 2vmax;
+    }
+    .email-logo {
+        width: 6vmax;
+        margin-top: 6vmax;
+        margin-left: 2vmax;
+    }
+    .telefone-logo {
+        width: 6vmax;
+        margin-top: 6vmax;
+        margin-left: 2vmax;
+    }
+
+    /*--------------------------------------------------------------
+    #                   Contatos Infos Card
+    --------------------------------------------------------------*/
+
+    .local-info {
+        margin-left: 1.5vmax;
+    }
+    .email-info {
+        margin-left: 1.5vmax;
+    }
+    .telefone-info {
+        margin-left: 1.5vmax;
+    }
+
+    /*--------------------------------------------------------------
+    #                       Local Infos
+    --------------------------------------------------------------*/
+
+    .local-title {
+        font-size: 2.5vmax;
+        margin-top: 4vmax;
+    }
+    .local-subtitle {
+        font-size: 2vmax;
+        margin-top: -2.5vmax;
+    }
+
+    /*--------------------------------------------------------------
+    #                        Email Infos
+    --------------------------------------------------------------*/
+
+    .email-title {
+        font-size: 2.5vmax;
+        margin-top: 5.5vmax;
+    }
+    .email-subtitle {
+        font-size: 2vmax;
+        margin-top: -2.5vmax;
+    }
+
+    /*--------------------------------------------------------------
+    #                       Telefone Infos
+    --------------------------------------------------------------*/
+
+    .telefone-title {
+        font-size: 2.5vmax;
+        margin-top: 5.5vmax;
+    }
+    .telefone-subtitle {
+        font-size: 2vmax;
+        margin-top: -2.5vmax;
+    }
+}
+
+
+@media (max-width: 1400px) and (min-height: 1480px) {
+
+
+    .contatos-section {
+        height: 100vh;
+        padding-top: 20vmax;
+        padding-bottom: 0vmax;
+        background-size: 350%;
+        background-position: center;
+        background-image:  url('../backgrounds/background-contatos.png');
+        background-color: #111;
+    }
+
+    /*--------------------------------------------------------------
+    #                    Contatos Título
+    --------------------------------------------------------------*/
+
+    .contatos-title {
+        font-size: 6vmax;
+        margin-top: 0vmax;
+    }
+
+    /*--------------------------------------------------------------
+    #                    Contatos Container
+    --------------------------------------------------------------*/
+
+
+    .contatos-card {
+        border-radius: 1.5vmax;
+        border-bottom: 0.7vmax solid rgb(236, 132, 48);
+        border-top: 0.7vmax solid rgb(236, 132, 48);
+        width: 35vmax;
+        height: 45vmax;
+    }
+
+    /*--------------------------------------------------------------
+    #                Contatos Infos Card Geral
+    --------------------------------------------------------------*/
+
+    .local {
+        display: inline-flex;
+        margin-top: 1.5vmax;
+    }
+    .email {
+        display: inline-flex;
+    }
+    .telefone {
+        display: inline-flex;
+    }
+
+    /*--------------------------------------------------------------
+    #                      Contatos Logos
+    --------------------------------------------------------------*/
+
+    .local-logo {
+        width: 6vmax;
+        margin-top: 4.5vmax;
+        margin-left: 2vmax;
+    }
+    .email-logo {
+        width: 6vmax;
+        margin-top: 6vmax;
+        margin-left: 2vmax;
+    }
+    .telefone-logo {
+        width: 6vmax;
+        margin-top: 6vmax;
+        margin-left: 2vmax;
+    }
+
+    /*--------------------------------------------------------------
+    #                   Contatos Infos Card
+    --------------------------------------------------------------*/
+
+    .local-info {
+        margin-left: 1.5vmax;
+    }
+    .email-info {
+        margin-left: 1.5vmax;
+    }
+    .telefone-info {
+        margin-left: 1.5vmax;
+    }
+
+    /*--------------------------------------------------------------
+    #                       Local Infos
+    --------------------------------------------------------------*/
+
+    .local-title {
+        font-size: 2.5vmax;
+        margin-top: 4vmax;
+    }
+    .local-subtitle {
+        font-size: 2vmax;
+        margin-top: -2.5vmax;
+    }
+
+    /*--------------------------------------------------------------
+    #                        Email Infos
+    --------------------------------------------------------------*/
+
+    .email-title {
+        font-size: 2.5vmax;
+        margin-top: 5.5vmax;
+    }
+    .email-subtitle {
+        font-size: 2vmax;
+        margin-top: -2.5vmax;
+    }
+
+    /*--------------------------------------------------------------
+    #                       Telefone Infos
+    --------------------------------------------------------------*/
+
+    .telefone-title {
+        font-size: 2.5vmax;
+        margin-top: 5.5vmax;
+    }
+    .telefone-subtitle {
+        font-size: 2vmax;
+        margin-top: -2.5vmax;
+    }
+}
+
+

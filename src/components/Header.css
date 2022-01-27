@@ -1,0 +1,471 @@
+/*--------------------------------------------------------------
+#                      Header Geral
+--------------------------------------------------------------*/
+
+.header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 9vmax;
+  transition: all ease 0.4s;
+  z-index: 1;
+  user-select: none;
+}
+
+nav.black {
+  background-color: rgba(18, 1, 32, 0.7);
+}
+
+
+/*--------------------------------------------------------------
+#                       Logo Geral
+--------------------------------------------------------------*/
+
+.logo-header {
+  margin-left: 7vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: default;
+}
+
+.logo {
+  cursor: pointer;
+  line-height: 9vmax;
+  width: 9vmax;
+  height: auto;
+  transition: all ease 0.4s;
+}
+.logo:hover {
+  transform: rotate(45deg);
+}
+
+/*--------------------------------------------------------------
+#                        Menu Geral
+--------------------------------------------------------------*/
+
+.menu {
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  margin-right: 7vmax;
+  font-size: 1.4vmax;
+  line-height: 9vmax;
+}
+
+
+/*--------------------------------------------------------------
+#                       Home Botão
+--------------------------------------------------------------*/
+
+.home {
+  margin-left: 1vmax;
+  margin-right: 1vmax;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+.home:hover {
+  color: rgb(252, 206, 79);
+}
+
+/*--------------------------------------------------------------
+#                     Sobre Mim Botão
+--------------------------------------------------------------*/
+
+
+.sobre-mim {
+  margin-left: 1vmax;
+  margin-right: 1vmax;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+.sobre-mim:hover {
+  color: rgb(252, 206, 79);
+}
+
+/*--------------------------------------------------------------
+#                   Tecnologias Botão
+--------------------------------------------------------------*/
+
+.tecnologias {
+  margin-left: 1vmax;
+  margin-right: 1vmax;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+.tecnologias:hover {
+  color: rgb(252, 206, 79);
+}
+
+/*--------------------------------------------------------------
+#                     Projetos Botão
+--------------------------------------------------------------*/
+
+.projetos {
+  margin-left: 1vmax;
+  margin-right: 1vmax;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+.projetos:hover {
+  color: rgb(252, 206, 79);
+}
+
+/*--------------------------------------------------------------
+#                     Contatos Botão
+--------------------------------------------------------------*/
+
+.contatos {
+  margin-left: 1vmax;
+  margin-right: 1vmax;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+.contatos:hover {
+  color: rgb(252, 206, 79);
+}
+
+/*--------------------------------------------------------------
+#                     Curriculo Botão
+--------------------------------------------------------------*/
+
+.curriculo {
+  margin-left: 1vmax;
+  margin-right: 1vmax;
+  transition: all ease 0.2s;
+  text-decoration: none;
+  color: transparent;
+  cursor: pointer;
+  background-image: var(--gradient);
+  background-clip: text;
+  background-size: 400%;
+  animation: bg-animation 9s infinite alternate;
+}
+.curriculo:hover {
+  color: rgb(252, 206, 79);
+}
+
+@keyframes bg-animation {
+  0% {background-position: left}
+  100% {background-position: right;}
+}
+
+
+/*--------------------------------------------------------------
+#                      Responsive Header
+--------------------------------------------------------------*/
+
+
+@media (max-width: 768px) {
+
+  /*--------------------------------------------------------------
+  #                      Header Geral
+  --------------------------------------------------------------*/
+
+  .header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 17vmax;
+    transition: all ease 0.4s;
+    z-index: 1;
+    user-select: none;
+  }
+
+  nav.black {
+    background-color: transparent;
+  }
+
+
+
+  /*--------------------------------------------------------------
+  #                       Logo Geral
+  --------------------------------------------------------------*/
+
+  .logo-header {
+    margin-left: 9vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: default;
+  }
+
+  .logo {
+    cursor: pointer;
+    line-height: 17vmax;
+    width: 13vmax;
+    height: auto;
+    transition: all ease 0.4s;
+  }
+  .logo:hover {
+    transform: rotate(45deg);
+  }
+
+
+  .menu {
+    display: none;
+  }
+  .toggle1,
+  .toggle2,
+  .toggle3 {
+    background-color: var(--white);
+    height: 0.4vmax;
+    width: 5vmax;
+    margin: 1.3vmax auto;
+    transition: all ease 0.2s;
+  }
+
+  .menu-toggle {
+    position: absolute;
+    line-height: 17vmax;
+    right: 0;
+    margin-right: 7vmax;
+    margin-top: 4vmax;
+    cursor: pointer;
+  }
+
+  .header.on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70vw;
+    height: 100vh;
+    background-color: rgba(17, 17, 17, 0.94);
+    z-index: 10;
+  }
+
+  .header.on .menu {
+    display: block;
+  }
+
+  .header.on .menu-toggle .toggle1 {
+    transform: rotate(45deg) translateY(0.7vmax) translateX(0.7vmax);
+  }
+
+  .header.on .menu-toggle .toggle2 {
+    opacity: 0;
+  }
+  
+  .header.on .menu-toggle .toggle3 {
+    transform: rotate(-45deg) translateY(-1.7vmax) translateX(1.6vmax);
+  }
+
+  .header.on .logo {
+    display: none;
+  }
+
+  .header.on .menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22vmax;
+    font-size: 6vmax;
+    margin-left: 9vmax;
+  }
+
+  .header.on .home {
+    width: 74vmax;
+    height: 11vmax;
+    margin-top: -9vmax;
+    text-align: center;
+  }
+
+  .header.on .sobre-mim {
+    width: 74vmax;
+    height: 11vmax;
+    text-align: center;
+  }
+
+  .header.on .tecnologias {
+    width: 74vmax;
+    height: 11vmax;
+    text-align: center;
+  }
+
+  .header.on .projetos {
+    width: 74vmax;
+    height: 11vmax;
+    text-align: center;
+  }
+
+  .header.on .contatos {
+    width: 74vmax;
+    height: 11vmax;
+    text-align: center;
+  }
+
+  .header.on .curriculo {
+    width: 74vmax;
+    height: 11vmax;
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo-header {
+    margin-left: 4vmax;
+    margin-top: -2vmax;
+  }
+
+  .header.on .menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22vmax;
+    font-size: 3vmax;
+    margin-left: 9vmax;
+  }
+
+  .header.on .home {
+    width: 74vmax;
+    height: 10vmax;
+    margin-top: -9vmax;
+    text-align: center;
+  }
+
+  .header.on .sobre-mim {
+    width: 74vmax;
+    height: 10vmax;
+    text-align: center;
+  }
+
+  .header.on .tecnologias {
+    width: 74vmax;
+    height: 10vmax;
+    text-align: center;
+  }
+
+  .header.on .projetos {
+    width: 74vmax;
+    height: 10vmax;
+    text-align: center;
+  }
+
+  .header.on .contatos {
+    width: 74vmax;
+    height: 10vmax;
+    text-align: center;
+  }
+
+  .header.on .curriculo {
+    width: 74vmax;
+    height: 10vmax;
+    text-align: center;
+  }
+
+}
+
+
+
+@media (max-width: 1400px) and (min-height: 1480px) {
+
+  .menu {
+    display: none;
+  }
+  .toggle1,
+  .toggle2,
+  .toggle3 {
+    background-color: var(--white);
+    height: 0.1vmax;
+    width: 3vmax;
+    margin: 0.9vmax auto;
+    transition: all ease 0.2s;
+  }
+
+  .menu-toggle {
+    position: absolute;
+    line-height: 6.37vmax;
+    right: 0;
+    margin-right: 4vmax;
+    margin-top: 1vmax;
+    cursor: pointer;
+  }
+
+  .header.on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70vw;
+    height: 100vh;
+    background-color: rgba(17, 17, 17, 0.94);
+    z-index: 10;
+  }
+
+  .header.on .menu {
+    display: block;
+  }
+
+  .header.on .menu-toggle .toggle1 {
+    transform: rotate(45deg) translateY(0.7vmax) translateX(0.7vmax);
+  }
+
+  .header.on .menu-toggle .toggle2 {
+    opacity: 0;
+  }
+  
+  .header.on .menu-toggle .toggle3 {
+    transform: rotate(-45deg) translateY(-0.7vmax) translateX(0.7vmax);
+  }
+
+  .header.on .logo {
+    display: none;
+  }
+
+  .header.on .menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22vmax;
+    font-size: 3vmax;
+  }
+
+  .header.on .home {
+    width: 74vw;
+    text-align: center;
+  }
+
+  .header.on .sobre-mim {
+    width: 74vw;
+    text-align: center;
+  }
+
+  .header.on .tecnologias {
+    width: 74vw;
+    text-align: center;
+  }
+
+  .header.on .projetos {
+    width: 74vw;
+    text-align: center;
+  }
+
+  .header.on .contatos {
+    width: 74vw;
+    text-align: center;
+  }
+
+  .header.on .curriculo {
+    width: 74vw;
+    text-align: center;
+  }
+}
+
+
+
+
+

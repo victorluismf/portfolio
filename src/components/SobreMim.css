@@ -1,0 +1,182 @@
+/*--------------------------------------------------------------
+#                    Sobre Mim Geral
+--------------------------------------------------------------*/
+
+.sobremim-section {
+    height: 120vh;
+    width: 100%;
+    box-shadow: inset 0 0 0 100vh rgba(0, 0, 0, 0.3);
+    user-select: none;
+  }
+  
+  /*--------------------------------------------------------------
+  #               Container Sobre Mim Central
+  --------------------------------------------------------------*/
+  
+  .sobremim-card {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 1vmax;
+  }
+  
+  /*--------------------------------------------------------------
+  #                      Sobre Mim Art
+  --------------------------------------------------------------*/
+  
+  .sobremim-art {
+    width: 30vmax;
+    height: auto;
+    margin-left: 15vmax;
+    margin-top: 17vmax;
+  }
+  
+  /*--------------------------------------------------------------
+  #                     Título Sobre Mim
+  --------------------------------------------------------------*/
+  
+  .h1-sobremim {
+    color: rgb(252, 206, 79);
+    font-size: 4vmax;
+    margin-bottom: 1vmax;
+  }
+  
+  /*--------------------------------------------------------------
+  #                    Texto Sobre Mim
+  --------------------------------------------------------------*/
+  
+  .text-sobremim {
+    margin-top: 15vmax;
+    margin-right: 5vmax;
+  }
+  
+  .text-sobremim p {
+    margin-top: -0.3vmax;
+    font-size: 1.3vmax;
+  }
+  
+  /*--------------------------------------------------------------
+  #                 Responsive Sobre Mim
+  --------------------------------------------------------------*/
+
+  @media (max-width: 800px) {
+
+    .sobremim-section {
+      padding-top: 5vh;
+      height: auto;
+    }
+
+    .sobremim-card {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      grid-column-gap: 1vmax;
+    }
+
+    .sobremim-art {
+      margin-top: 15vmax;
+      margin-left: 0;
+      margin-right: 0;
+      width: 40vmax;
+      height: auto;
+      animation: none;
+    }
+    
+    .h1-sobremim {
+      font-size: 7vmax;
+      margin-bottom: 1vmax;
+    }
+    
+    /*--------------------------------------------------------------
+    #                    Texto Sobre Mim
+    --------------------------------------------------------------*/
+    
+    .text-sobremim {
+      margin-top: -1vmax;
+      margin-right: 0;
+    }
+    
+    .text-sobremim p {
+      margin-top: -1vmax;
+      font-size: 3vmax;
+    }
+    
+
+  }
+
+  @media (max-width: 425px) {
+    .text-sobremim p {
+      margin-top: -1vmax;
+      margin-left: 1vmax;
+      margin-right: 1vmax;
+      font-size: 2.5vmax;
+    }
+
+}
+
+@media (max-width: 375px) {
+  .text-sobremim p {
+    margin-top: -1vmax;
+    margin-left: 1vmax;
+    margin-right: 1vmax;
+    font-size: 2.3vmax;
+  }
+
+}
+
+
+  @media (max-width: 1400px) and (min-height: 1480px) {
+
+    .sobremim-section {
+      padding-top: 5vh;
+    }
+
+    .sobremim-card {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      grid-column-gap: 1vmax;
+    }
+
+    .sobremim-art {
+      margin-top: 19vmax;
+      margin-left: 0;
+      margin-right: 0;
+      width: 40vmax;
+      height: auto;
+      animation: none;
+    }
+    
+    .h1-sobremim {
+      font-size: 6vmax;
+      margin-bottom: 1vmax;
+    }
+    
+    /*--------------------------------------------------------------
+    #                    Texto Sobre Mim
+    --------------------------------------------------------------*/
+    
+    .text-sobremim {
+      margin-top: -1vmax;
+      margin-right: 0;
+    }
+    
+    .text-sobremim p {
+      margin-top: -0.3vmax;
+      font-size: 2.2vmax;
+    }
+    
+
+  }
+  
+  
+
+  
+  
+  
+  
