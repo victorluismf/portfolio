@@ -1,0 +1,170 @@
+/*--------------------------------------------------------------
+#                      Footer Geral
+--------------------------------------------------------------*/
+
+.footer {
+    box-shadow: inset 0 0 0 100vh rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 7vmax;
+    user-select: none;
+    text-align: center;
+}
+/*--------------------------------------------------------------
+#                      Github Icon
+--------------------------------------------------------------*/
+
+.github-footer {
+    width: 3.5vmax;
+    height: auto;
+    transform: scale(0.9);
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.github-footer:hover {
+    transform: scale(1)
+}
+
+/*--------------------------------------------------------------
+#                     Linkedin Icon
+--------------------------------------------------------------*/
+
+.linkedin-footer {
+    width: 3.5vmax;
+    height: auto;
+    margin-left: 0.85vmax;
+    margin-right: 0.75vmax;
+    transform: scale(0.9);
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.linkedin-footer:hover {
+    transform: scale(1)
+}
+
+/*--------------------------------------------------------------
+#                      Whatsapp Icon
+--------------------------------------------------------------*/
+
+.whatsapp-footer {
+    width: 3.5vmax;
+    height: auto;
+    transform: scale(0.9);
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.whatsapp-footer:hover {
+    transform: scale(1)
+}
+
+
+/*--------------------------------------------------------------
+#                         Copyright
+--------------------------------------------------------------*/
+
+.copyright {
+    margin-top: 0vmax;
+    font-size: 1vmax;
+}
+
+
+@media (max-width: 800px) {
+
+    .footer {
+        height: 10vmax;
+        padding-top: 1vmax;
+    }
+    
+    /*--------------------------------------------------------------
+    #                      Github Icon
+    --------------------------------------------------------------*/
+    
+    .github-footer {
+        margin-top:-3vmax;
+        width: 6vmax;
+    }
+    
+    /*--------------------------------------------------------------
+    #                     Linkedin Icon
+    --------------------------------------------------------------*/
+    
+    .linkedin-footer {
+        margin-top: -3vmax;
+        width: 6vmax;
+    }
+    
+    /*--------------------------------------------------------------
+    #                      Whatsapp Icon
+    --------------------------------------------------------------*/
+    
+    .whatsapp-footer {
+        margin-top: -3vmax;
+        width: 6vmax;
+    }
+    
+    
+    /*--------------------------------------------------------------
+    #                         Copyright
+    --------------------------------------------------------------*/
+    
+    .copyright {
+        font-size: 2vmax;
+    }
+    
+
+}
+
+@media (max-width: 1400px) and (min-height: 1480px) {
+
+    .footer {
+        height: 20vmax;
+        padding-top: 1vmax;
+    }
+    
+    /*--------------------------------------------------------------
+    #                   Footer Redes Sociais
+    --------------------------------------------------------------*/
+    
+    .redes-sociais {
+        font-size: 3.5vmax;
+    }
+    
+    /*--------------------------------------------------------------
+    #                      Github Icon
+    --------------------------------------------------------------*/
+    
+    .github-footer {
+        margin-top: -1.5vmax;
+        width: 6vmax;
+    }
+    
+    /*--------------------------------------------------------------
+    #                     Linkedin Icon
+    --------------------------------------------------------------*/
+    
+    .linkedin-footer {
+        margin-top: -1.5vmax;
+        width: 6vmax;
+    }
+    
+    /*--------------------------------------------------------------
+    #                      Whatsapp Icon
+    --------------------------------------------------------------*/
+    
+    .whatsapp-footer {
+        margin-top: -1.5vmax;
+        width: 6vmax;
+    }
+    
+    
+    /*--------------------------------------------------------------
+    #                         Copyright
+    --------------------------------------------------------------*/
+    
+    .copyright {
+        margin-top: 1vmax;
+        font-size: 2vmax;
+    }
+    
+
+}
+

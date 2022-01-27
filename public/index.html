@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/logo-web.png" />
+    <style>
+      ::-webkit-scrollbar
+      {
+          width: 1.5vh;
+      }
+      ::-webkit-scrollbar-thumb
+      {
+          background: linear-gradient(transparent, #db8912, #e52870);
+          border-radius: 1vh;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Victor Luis - Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+      $(window).on('scroll', function(){
+      if ($(window).scrollTop()){
+        $('nav').addClass('black');
+      }
+      else
+      {
+        $('nav').removeClass('black');
+      }
+    })
+      </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

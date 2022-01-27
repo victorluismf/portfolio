@@ -1,0 +1,112 @@
+/*--------------------------------------------------------------
+    #                    Projetos Geral
+    --------------------------------------------------------------*/
+
+    div.projetosSection {
+        height: 1600px;
+    }
+
+    /*--------------------------------------------------------------
+    #                    Projetos Título
+    --------------------------------------------------------------*/
+
+    h1.projetosTitle {
+        margin-top: 130px;
+        font-size: 10rem;
+    }
+    /*--------------------------------------------------------------
+    #                 Cards Projetos Container
+    --------------------------------------------------------------*/
+    
+    div.projetos1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*--------------------------------------------------------------
+    #                    Card Portfolio
+    --------------------------------------------------------------*/
+
+    h2.portfolioTitle {
+        font-size: 5rem;
+        margin-top: -40px;
+    }
+    img.portfolio {
+        width: 700px;
+        height: auto;
+        margin-top: -50px;
+    }
+
+    /*--------------------------------------------------------------
+    #                    Icons Portfolio
+    --------------------------------------------------------------*/
+
+    img.portfolioPlus {
+        width: 20px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    img.portfolioGithub {
+        width: 20px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    /*--------------------------------------------------------------
+    #                    Card DC Villains
+    --------------------------------------------------------------*/
+
+    h2.dcvillainsTitle {
+        font-size: 5rem;
+        margin-top: -40px;
+    }
+    img.dcvillains {
+        width: 700px;
+        height: auto;
+        margin-top: -50px;
+    }
+
+    /*--------------------------------------------------------------
+    #                    Icons DC Villains
+    --------------------------------------------------------------*/
+
+    img.dcvillainsPlus {
+        width: 20px;
+        height: auto;
+        margin-right: 10px;
+    }
+    img.dcvillainsGithub {
+        width: 20px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    /*--------------------------------------------------------------
+    #                    Card Netflix Clone
+    --------------------------------------------------------------*/
+
+    h2.netflixcloneTitle {
+        font-size: 5rem;
+        margin-top: -40px;
+    }
+    img.netflixclone {
+        width: 700px;
+        height: auto;
+        margin-top: -50px;
+    }
+
+    /*--------------------------------------------------------------
+    #                    Icons Netflix Clone
+    --------------------------------------------------------------*/
+
+    img.netflixclonePlus {
+        width: 20px;
+        height: auto;
+        margin-right: 10px;
+    }
+    img.netflixcloneGithub {
+        width: 20px;
+        height: auto;
+        margin-left: 10px;
+    }
