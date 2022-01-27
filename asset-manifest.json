@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.85ed0ba0.chunk.css",
+    "main.js": "/portfolio/static/js/main.82f5e763.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.82f5e763.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.bcd5af5a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.bcd5af5a.js.map",
+    "static/css/2.ae9e5f60.chunk.css": "/portfolio/static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.5f7f2aec.chunk.js": "/portfolio/static/js/2.5f7f2aec.chunk.js",
+    "static/js/2.5f7f2aec.chunk.js.map": "/portfolio/static/js/2.5f7f2aec.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.ae9e5f60.chunk.css.map": "/portfolio/static/css/2.ae9e5f60.chunk.css.map",
+    "static/css/main.85ed0ba0.chunk.css.map": "/portfolio/static/css/main.85ed0ba0.chunk.css.map",
+    "static/js/2.5f7f2aec.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5f7f2aec.chunk.js.LICENSE.txt",
+    "static/media/Contatos.css": "/portfolio/static/media/background-contatos.99430341.png",
+    "static/media/Projetos.css": "/portfolio/static/media/background-projetos.35d956fd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcd5af5a.js",
+    "static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.5f7f2aec.chunk.js",
+    "static/css/main.85ed0ba0.chunk.css",
+    "static/js/main.82f5e763.chunk.js"
+  ]
+}
